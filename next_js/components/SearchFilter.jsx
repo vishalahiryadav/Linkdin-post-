@@ -29,9 +29,8 @@ const SearchFilter = () => {
       const results = items.filter((item) => {
         const matchesCategory =
           searchCategory === "all" || item.category === searchCategory;
-        const matchesSearchTerm = item.name
-          .toLowerCase()
-          .includes(debouncedSearchTerm.toLowerCase());
+          console.log(matchesCategory)
+const matchesSearchTerm = item.name.toLowerCase().includes(debouncedSearchTerm.toLowerCase());
         return matchesCategory && matchesSearchTerm;
       });
 
