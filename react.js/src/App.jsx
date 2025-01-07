@@ -9,13 +9,18 @@ import TaskManager from './CURD opration/TaskManager'
 import Async from './asyncVSpromise/Async'
 import Promises from './asyncVSpromise/Promises'
 import Button from './ReusableButton/Button'
-import reverseWordsInSentence from './ReverseWordsInSentence'
+// import ReverseWordsInSentence from './ReverseWordsInSentence'
+import Dropdown from './DropDownMenu/Dropdown'
+import FibonacciApp from './Febonachi'
+import FactorialCalculator from './Factorial'
 
 function App() {
 
 
   // const count = 3;
   // useRenderTime()
+  const options = ["Option 1", "Option 2", "Option 3"];
+
 
   return (
     <>
@@ -29,7 +34,10 @@ function App() {
     {/* <Async /> */}
     {/* <Promises /> */}
     {/* <Button /> */}
-    <reverseWordsInSentence />
+    {/* <ReverseWordsInSentence /> */}
+    {/* <Dropdown /> */}
+    <FibonacciApp />
+    {/* <FactorialCalculator /> */}
     </>
   )
 }
