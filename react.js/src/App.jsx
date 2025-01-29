@@ -13,6 +13,9 @@ import Button from './ReusableButton/Button'
 import Dropdown from './DropDownMenu/Dropdown'
 import FibonacciApp from './Febonachi'
 import FactorialCalculator from './Factorial'
+import WithoutReactWindow from './react-window/withOUTReactWindow'
+import WithReactWindow from './react-window/withReactWindow'
+import items from './react-window/items'
 
 function App() {
 
@@ -36,8 +39,10 @@ function App() {
     {/* <Button /> */}
     {/* <ReverseWordsInSentence /> */}
     {/* <Dropdown /> */}
-    <FibonacciApp />
+    {/* <FibonacciApp /> */}
     {/* <FactorialCalculator /> */}
+    <WithoutReactWindow items={items} />
+    {/* <WithReactWindow items={items} /> */}
     </>
   )
 }
